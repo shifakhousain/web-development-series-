@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day 1 </title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/day2.css')}}">
+<style>
+	h2{
+		text-align: center;color: blueviolet; border: solid black ;
+	}
+
+
+
+</style>
+</head>
+<body>
+<h1 style="text-align: center; color: indianred;">CASCADING STYLE SHEET </h1>
+
+<h2> inline </h2>
+<h2> internal </h2>
+<h2> Exterlnal </h2></div>
+<p style="background: lightpink;">Inline happens in the HTML line itself in the open tag </p>
+<p style="background: peachpuff;"> Internal css is written inside the html title int the style tag. h2 tag </p>
+<p style="background: plum;"> External css is writen in a seprate file with (.css) extention and then link it to the html page 
+	<br> in python its done as < link rel = "stylesheet" type="text/css" href="{{url_for('static', filename='css/design.css')}}">
+</p>
+
+<img src="{{url_for('static',filename='images/images.png')}}">
+<img src="{{url_for('static',filename='images/cat-sample_1313.jpg')}}">
+</body>
+</html>
