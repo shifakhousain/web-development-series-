@@ -1,1 +1,11 @@
 https://flask.palletsprojects.com/en/3.0.x/
+install xampp 
+.
+.
+install packages 
+1 flsk_mysqldb
+2 mysql.connector 
+3 wtforms 
+
+
+pip install(# above) in the terminal. 
